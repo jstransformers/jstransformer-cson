@@ -2,7 +2,8 @@
 
 var cson = require('cson');
 
+exports.name = 'cson';
 exports.outputFormat = 'json';
-exports.compile = function (str) {
+exports.render = function (str) {
   return JSON.stringify(cson.parseSync(str));
 };
