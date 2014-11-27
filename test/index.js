@@ -4,7 +4,7 @@ var assert = require('assert');
 
 var transform = require('../');
 
-var res = transform.compile('{\n    # an array\n    ' +
+var res = transform.render('{\n    # an array\n    ' +
                             'abc: [\n        \'a\'\n' +
                             '        \'b\'\n        \'c\'\n    ]\n' +
                             '    # an object\n    a:\n        b: \'c\'\n}');
