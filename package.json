@@ -6,7 +6,7 @@
     "jstransformer"
   ],
   "dependencies": {
-    "cson": "^1.6.1"
+    "cson-parser": "^1.0.9"
   },
   "scripts": {
     "test": "node test"
