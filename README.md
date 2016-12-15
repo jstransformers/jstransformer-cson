@@ -11,6 +11,15 @@
 
     npm install jstransformer-cson
 
+## API
+
+```js
+var foo = require('jstransformer')(require('jstransformer-cson'));
+
+foo.render("name: 'someone'").body
+//=> '{"name": "someone"}'
+```
+
 ## License
 
   MIT
