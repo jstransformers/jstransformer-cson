@@ -5,9 +5,29 @@ lib-cov
 *.dat
 *.out
 *.pid
+<<<<<<< HEAD
 *.gz
 pids
 logs
 results
 npm-debug.log
 node_modules
+=======
+*.seed
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency management
+node_modules
+package-lock.json
+
+# Users Environment Variables
+.lock-wscript
+>>>>>>> cfe5a281f20ff4ad36ec5e0f22903a7a5dec4ba9

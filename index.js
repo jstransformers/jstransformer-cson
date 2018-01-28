@@ -1,6 +1,6 @@
 'use strict'
 
-var CSON = require('cson-parser')
+const CSON = require('cson-parser')
 
 exports.name = 'cson'
 exports.outputFormat = 'json'
