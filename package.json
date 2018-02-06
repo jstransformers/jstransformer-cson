@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "cson-parser": "^2.0.0"
+    "cson-parser": "^3.0.0"
   },
   "name": "jstransformer-cson",
   "version": "0.1.0",
