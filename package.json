@@ -3,7 +3,7 @@
     "cson-parser": "^3.0.0"
   },
   "name": "jstransformer-cson",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CSON support for JSTransformers.",
   "keywords": [
     "jstransformer"
