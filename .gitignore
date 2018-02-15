@@ -1,18 +1,10 @@
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-<<<<<<< HEAD
-*.gz
-pids
+# Logs
 logs
-results
-npm-debug.log
-node_modules
-=======
+*.log
+
+# Runtime data
+pids
+*.pid
 *.seed
 
 # Coverage directory used by tools like istanbul
@@ -30,4 +22,3 @@ package-lock.json
 
 # Users Environment Variables
 .lock-wscript
->>>>>>> cfe5a281f20ff4ad36ec5e0f22903a7a5dec4ba9
